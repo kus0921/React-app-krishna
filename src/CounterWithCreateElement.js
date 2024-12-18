@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 class Count extends React.Component {
     constructor(props) {
         super(props);

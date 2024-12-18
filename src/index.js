@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Count from './CounterWithCreateElement'
 import reportWebVitals from './reportWebVitals';
+import GenreSearch from './GenreSearch';
+import SearchForm from './SearchForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Count />
+    <SearchForm />
+    <GenreSearch />
+   
   </React.StrictMode>
 );
 
