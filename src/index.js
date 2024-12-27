@@ -11,8 +11,8 @@ const initialValue = 0;
 root.render(
   <React.StrictMode>
    <Count initialValue={initialValue} />
-    {/* <SearchForm />
-    <GenreSearch /> */}
+    <SearchForm />
+    <GenreSearch />
    
   </React.StrictMode>
 );
