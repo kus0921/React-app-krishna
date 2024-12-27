@@ -7,11 +7,12 @@ import GenreSearch from './GenreSearch';
 import SearchForm from './SearchForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const initialValue = 0;
 root.render(
   <React.StrictMode>
-    <Count />
-    <SearchForm />
-    <GenreSearch />
+   <Count initialValue={initialValue} />
+    {/* <SearchForm />
+    <GenreSearch /> */}
    
   </React.StrictMode>
 );
