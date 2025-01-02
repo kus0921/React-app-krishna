@@ -20,21 +20,3 @@ const SearchForm = () => {
 };
 export default SearchForm;
 
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import SearchForm from './SearchForm';
-
-// const App = () => {
-//   const handleSearch = (query) => {
-//     console.log('Search triggered with query:', query);
-//   };
-
-//   return (
-//     <div>
-//       <h1>Search Form Example</h1>
-//       <SearchForm initialSearchQuery="React" onSearch={handleSearch} />
-//     </div>
-//   );
-// };
-
-// ReactDOM.render(<App />, document.getElementById('root'));
