@@ -1,8 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component,useState } from 'react';
+//import React, { useState } from 'react';
+
 class Counter extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { count: 0 };
+  constructor(initialValue) {
+    super(initialValue);
+    //setCount=useState(initialValue);
+    this.state = { count: initialValue };
   }
   incrementCount = () => {
     this.setState({ count: this.state.count + 1 });
